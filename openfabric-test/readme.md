@@ -1,34 +1,17 @@
-# AI Junior Developer (Intern) Test 
-Welcome! and thank you for applying! 
+# openfabric-chatbot
+This is the implementation of a chat bot using python.
 
-## Requirement
-The current project has the blueprint structure of an AI App. 
+To execute the file, clone the repository using the link provided, then in the terminal, cd into openfabric-chatbot folder then further cd into openfabric-test and then run the file.
 
-Your mission is to implement an 💬NLP chatbot **answering questions about science**. 
+The chatbot works with the data provided in the bot.json file, it takes the words from the json file and matches with the input text of the user and calculates the score, then outputs the response with higher score.
 
-You will add your logic to the `main.py` file inside the `execute` function. 
-```python
-def execute(request: SimpleText, ray: OpenfabricExecutionRay) -> SimpleText:
-    output = []
-    for text in request.text:        
-        response = '' # <<< --Your magic goes here
-        output.append(response)
+you can try asking questions like:
 
-    return SimpleText(dict(text=output))
-```
-## Constraints and restrictions
-You are free to use any package or library you see feet as long as you follow these rules:
-* 👎 You can't call any external service (e.g. chatGPT) 
-* 👎 You can't copy and paste from other peoples work 
+1) "what is science"
+2) "what is gravity"
+3) "what is big bang theory"
+4) "what is DNA"
+5) "what is evolution"
 
-## Run
-The application can be executed in two different ways:
-* locally by running the `start.sh` 
-* on in a docker container using `Dockerfile` 
 
-## Submission
-Your solution must be uploaded on GitHub, and submit us the link in **max 1 week** after receiving the task.
-
-## Note
-Keep in mind that this is the project that will be used to evaluate your skills.
-So we do expect you to make sure that the app is fully functional and doesn't have any obvious missing pieces.
+For more question choices, taking a look at bot.json file is highly recommended.
