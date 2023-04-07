@@ -1,0 +1,74 @@
+[  {    "response_type": "greeting",    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+    {    "response_type": "science",    "user_input": ["what", "is", "science"],
+  "bot_response": "Science is a systematic and logical approach to discovering how things in the universe work. It is based on observation, experimentation, and analysis of data.",
+  "required_words": ["science"]
+},
+
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "the", "big", "bang", "theory"],
+    "bot_response": "The Big Bang theory is the prevailing cosmological model that explains the origin of the universe.",
+    "required_words": ["big", "bang", "theory"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "evolution"],
+    "bot_response": "Evolution is the process by which different kinds of living organisms have developed and diversified from earlier forms during the history of the Earth.",
+    "required_words": ["evolution"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "quantum", "mechanics"],
+    "bot_response": "Quantum mechanics is a fundamental theory in physics that describes the physical properties of nature at the scale of atoms and subatomic particles.",
+    "required_words": ["quantum", "mechanics"]
+  },
+ {    "response_type": "science",    "user_input": ["what", "is", "gravity"],
+    "bot_response": "Gravity is a force of attraction that exists between any two masses, any two bodies, any two particles.",
+    "required_words": ["gravity"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "DNA"],
+    "bot_response": "DNA is a molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms and many viruses.",
+    "required_words": ["DNA"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "photosynthesis"],
+    "bot_response": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organisms' activities.",
+    "required_words": ["photosynthesis"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "global", "warming"],
+    "bot_response": "Global warming is the long-term heating of Earth's climate system caused by human activities, primarily the burning of fossil fuels such as coal, oil, and gas.",
+    "required_words": ["global", "warming"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["what", "is", "the", "ozone", "layer"],
+    "bot_response": "The ozone layer is a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation, protecting life on Earth from its potentially harmful effects.",
+    "required_words": ["ozone", "layer"]
+  }
+]
